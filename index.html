@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="wrapper__header"><input type="search" placeholder="поиск" class="wrapper__input" id='search'></div>
+        <div class="wrapper__body">
+            <div id='div' class="wrapper__items"></div>
+        </div>
+        <button id="OpnBtn" class="wrapper__opnBtn">добавить контакт</button>
+        <div class="wrapper__forms hidden">
+            <input class="wrapper__formsInput" autocomplete='off' type="text" placeholder="Имя" id="InputValue1"
+                value="">
+            <input class="wrapper__formsInput" autocomplete='off' type="number" placeholder="Номер" id="InputValue2"
+                value="">
+            <button class="btn" value="Click" id="addBtn">создать контакт</button>
+        </div>
+    </div>
+
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
